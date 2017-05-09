@@ -487,6 +487,7 @@ module Refile
   require "refile/custom_logger"
   require "refile/app"
   require "refile/backend/file_system"
+  require "refile/image_processing"
 end
 
 Refile.configure do |config|
